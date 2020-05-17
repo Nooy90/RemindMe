@@ -17,3 +17,4 @@ class Email():
             write_error = open('log.txt', 'a')
             write_error.write(f'{e}\n')
             write_error.close()
+            
