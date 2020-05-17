@@ -2,8 +2,8 @@ from flask_mysqldb import MySQL
 from flask_sqlalchemy import SQLAlchemy
 
 
-database_name = 'isellubuy'
-database_path = 'mysql://root:@localhost/remindme'
+database_name = 'databasename'
+database_path = 'mysql://root:@localhost/databasename'
 
 db = SQLAlchemy()
 
